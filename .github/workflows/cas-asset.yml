@@ -1,0 +1,8 @@
+name: "cas asset"
+on: ["push"]
+jobs:
+  build:
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: cas notarize asset
+        uses: codenotary/cas-notarize-asset-github-action@1.0.0
