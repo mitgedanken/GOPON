@@ -8,4 +8,7 @@ jobs:
         uses: codenotary/cas-notarize-asset-github-action@1.0.0
       - name: cas authorize asset
         uses: codenotary/cas-authenticate-asset-github-action@1.0.0
-      
+    env:
+      CAS_API_KEY: ${{ secrets.CAS_API_KEY }}
+      CAS_SIGNER_ID: ${{ secrets.CAS_SIGNER_ID }}
+    
