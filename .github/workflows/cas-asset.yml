@@ -7,5 +7,5 @@ jobs:
       - name: cas notarize asset
         uses: codenotary/cas-notarize-asset-github-action@1.0.0
       - name: cas authorize asset
-        uses: codenotary/cas-authorize-asset-github-action@1.0.0
+        uses: codenotary/cas-authenticate-asset-github-action@1.0.0
       
